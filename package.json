@@ -1,0 +1,19 @@
+{
+  "name": "unit-testing-intro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jasmine",
+    "coverage": "istanbul cover -x \"**/spec/**\"  node_modules/jasmine/bin/jasmine.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "istanbul": "^0.4.5",
+    "jasmine": "^2.5.3"
+  }
+}

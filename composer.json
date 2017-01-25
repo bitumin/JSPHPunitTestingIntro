@@ -1,0 +1,27 @@
+{
+  "name": "bitumin/unit-testing-intro",
+  "description": "Introduction exercises to PHP and JS Unit Testing.",
+  "type": "project",
+  "keywords": [
+    "phpunit",
+    "jasmine",
+    "testing"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Mitxel Moriana",
+      "email": "moriana.mitxel@gmail.com",
+      "role": "developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "TestingIntro\\": "src/"
+    }
+  },
+  "require": {},
+  "require-dev": {
+    "phpunit/phpunit": "^5.7"
+  }
+}

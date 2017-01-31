@@ -13,6 +13,7 @@
 /tests/TextUI/*.php
 /cache.properties
 /composer.lock
+/composer.phar
 /vendor
 /.php_cs.cache
 /coverage

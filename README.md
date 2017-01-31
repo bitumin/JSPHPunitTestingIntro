@@ -45,7 +45,7 @@ Para, por ejemplo, correr todos los tests de la carpeta ./tests se puede utiliza
 phpunit tests
 ```
 
-Si se quiere generar un análisis de code coverage en formato html (recomendado):
+Si se quiere generar el análisis de code coverage en formato html (recomendado):
 
 ```
 phpunit --coverage-html=./coverage tests
@@ -86,3 +86,25 @@ jasmine init
 
 * `./spec/support/jasmine.json` Indicamos la carpeta de tests (spec files)
 
+
+### Correr jasmine e istanbul (code coverage) desde la línea de comandos
+
+Para, por ejemplo, correr todos los tests de la carpeta ./spec se puede utilizar el comando:
+
+``` 
+jasmine
+```
+
+Si se quiere generar el análisis de code coverage en formato html (recomendado):
+
+```
+istanbul cover -x \"**/spec/**\" node_modules/jasmine/bin/jasmine.js
+```
+
+Alternativamente se pueden preparar estos comandos como scripts en package.json y correrlos a través de npm.
+Por ejemplo, en este repositorio están preparados para poder ser ejecutados, respectivamente, del siguiente modo:
+
+```
+npm run test
+npm run coverage
+```

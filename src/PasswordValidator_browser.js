@@ -1,3 +1,5 @@
+// basic browser compatible js class/module
+
 var Validator = (function () {
     return {
         hasUppercase: function hasUppercase(password) {

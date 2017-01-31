@@ -4,8 +4,8 @@
   "type": "project",
   "keywords": [
     "phpunit",
-    "jasmine",
-    "testing"
+    "testing",
+    "tdd"
   ],
   "license": "MIT",
   "authors": [
